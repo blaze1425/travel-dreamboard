@@ -57,11 +57,12 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/LMS-Portal.git
+git clone https://github.com/blaze1425/travel-dreamboard.git
 
 # Navigate to the directory
 cd LMS-Portal
 
 # Run directly
 open index.html
+
 
