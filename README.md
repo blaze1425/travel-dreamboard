@@ -1,14 +1,5 @@
 # travel-dreamboard
-# Hack Culprit Virtual Internship - Project Report  
-## Project Title: Learning Management System (LMS) Portal  
 
-### Submitted by:
-**Name:** [Your Full Name]  
-**Internship Role:** Virtual Intern  
-**Organization:** Hack Culprit  
-**GitHub Profile:** [@yourusername](https://github.com/yourusername)  
-**Project Duration:** [Start Date] – [End Date]  
-**Project Repository:** [https://github.com/yourusername/LMS-Portal](https://github.com/yourusername/LMS-Portal)  
 
 ---
 
@@ -73,3 +64,4 @@ cd LMS-Portal
 
 # Run directly
 open index.html
+
