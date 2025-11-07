@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LMS Portal</title>
+  <title>Travel Dream Board</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <header class="header">
-    <h1 class="logo">📘 LMS Portal</h1>
+    <h1 class="logo">✈️ Travel Dream Board</h1>
     <div id="userinfo" class="userinfo"></div>
   </header>
 
@@ -17,14 +20,10 @@
     <!-- Login -->
     <section id="loginSection" class="login-section">
       <div class="login-card">
-        <h2>Welcome to LMS Portal</h2>
-        <p class="subtitle">Your personal learning space</p>
+        <h2>Welcome to Your Travel Dream Board</h2>
+        <p class="subtitle">Plan your adventures and explore the world</p>
         <input id="nameInput" type="text" placeholder="Enter your name">
-        <select id="roleSelect">
-          <option value="student">Student</option>
-          <option value="instructor">Instructor</option>
-        </select>
-        <button id="loginBtn">Sign In</button>
+        <button id="loginBtn">Start Planning</button>
       </div>
     </section>
 
@@ -32,10 +31,10 @@
     <section id="dashboard" class="hidden">
       <div class="toolbar">
         <div>
-          <button id="btnCourses">Courses</button>
-          <button id="btnAssignments">Assignments</button>
-          <button id="btnCreateCourse" class="hidden">+ Create Course</button>
-          <button id="btnCreateAssignment" class="hidden">+ New Assignment</button>
+          <button id="btnDestinations">My Destinations</button>
+          <button id="btnBoards">Travel Boards</button>
+          <button id="btnCreateDestination">+ Add Destination</button>
+          <button id="btnCreateBoard">+ Create Board</button>
         </div>
         <button id="logoutBtn" class="logout-btn">Log out</button>
       </div>
@@ -47,13 +46,13 @@
   <!-- Modal -->
   <div id="modal" class="modal hidden">
     <div class="modal-content">
-      <button id="modalClose" class="close-btn">✕</button>
+      <button id="modalClose" class="close-btn" type="button" onclick="this.closest('#modal').classList.add('hidden'); if(event) event.stopPropagation(); return false;" style="z-index: 10000 !important; position: absolute !important;">✕</button>
       <div id="modalBody"></div>
     </div>
   </div>
 
   <footer class="footer">
-    <p>© 2025 LMS Portal | Built with ❤️ by test1408</p>
+    <p>© 2025 Travel Dream Board | Built with ❤️ by test1408</p>
   </footer>
 
   <script src="script.js"></script>
