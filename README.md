@@ -2,15 +2,7 @@
 # Hack Culprit Virtual Internship - Project Report  
 ## Project Title: Learning Management System (LMS) Portal  
 
-### Submitted by:
-**Name:** [Your Full Name]  
-**Internship Role:** Virtual Intern  
-**Organization:** Hack Culprit  
-**GitHub Profile:** [@yourusername](https://github.com/yourusername)  
-**Project Duration:** [Start Date] – [End Date]  
-**Project Repository:** [https://github.com/yourusername/LMS-Portal](https://github.com/yourusername/LMS-Portal)  
 
----
 
 ## 1. Executive Summary  
 This project, **LMS Portal**, was developed as part of the Hack Culprit Virtual Internship.  
@@ -66,10 +58,11 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/LMS-Portal.git
+git clone https://github.com/blaze1425/travel-dreamboard.git
 
 # Navigate to the directory
 cd LMS-Portal
 
 # Run directly
 open index.html
+
